@@ -1,11 +1,19 @@
-package by.itstep.vikvik.javalessons.lesson18.controller;
+package by.itstep.vikvik.javalessons.lesson18_19.controller;
 
-import by.itstep.vikvik.javalessons.lesson18.model.logic.ArrayWorker;
-import by.itstep.vikvik.javalessons.lesson18.util.ArrayInitializer;
-import by.itstep.vikvik.javalessons.lesson18.util.Convertor;
-import by.itstep.vikvik.javalessons.lesson18.view.Printer;
+import by.itstep.vikvik.javalessons.lesson18_19.model.logic.ArrayWorker;
+import by.itstep.vikvik.javalessons.lesson18_19.util.ArrayInitializer;
+import by.itstep.vikvik.javalessons.lesson18_19.util.Convertor;
+import by.itstep.vikvik.javalessons.lesson18_19.view.Printer;
 
 import java.util.Scanner;
+
+class A {
+
+}
+
+class B {
+
+}
 
 public class Task01 {
     public static void main(String[] args) {
