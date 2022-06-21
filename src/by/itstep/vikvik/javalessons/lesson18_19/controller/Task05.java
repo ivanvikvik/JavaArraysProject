@@ -10,17 +10,20 @@ import java.util.Scanner;
 
 public class Task05 {
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
-        int size;
+//        Scanner scanner = new Scanner(System.in);
+//        int size;
+//
+//        do {
+//            Printer.print("Input size of array: ");
+//            size = scanner.nextInt();
+//        } while (size <= 0);
 
-        do {
-            Printer.print("Input size of array: ");
-            size = scanner.nextInt();
-        } while (size <= 0);
+//        int[] array = new int[size];
 
-        int[] array = new int[size];
 
-        ArrayInitializer.randomInit(array);
+        int[] array = {20, 19, 18, 17, 16, 15, 14, 13, 12, 11, 10, 1, 9, 8, 7, 6, 5, 4, 3, 2};
+
+        //ArrayInitializer.randomInit(array);
 
         Printer.print("Array before sort: " + Convertor.toString(array));
 
